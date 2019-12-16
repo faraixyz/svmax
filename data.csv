@@ -1,0 +1,36 @@
+label,days_to_grow,regrowth_time,selling_price,yield_per_harvest,multiple_harvests,pierre,joja,egg_festival,oasis,travelling_cart,spring,summer,fall,winter
+Blue Jazz,7,-1,50,1,false,30,37,Infinity,Infinity,Infinity,true,false,false,false
+Cauliflower,12,-1,175,1,false,80,100,Infinity,Infinity,Infinity,true,false,false,false
+Garlic,4,-1,60,1,false,40,Infinity,Infinity,Infinity,Infinity,true,false,false,false
+Kale,6,-1,110,1,false,70,87,Infinity,Infinity,Infinity,true,false,false,false
+Parsnip,4,-1,35,1,false,20,25,Infinity,Infinity,Infinity,true,false,false,false
+Potato,6,-1,80,1,false,50,62,Infinity,Infinity,Infinity,true,false,false,false
+Rhubarb,13,-1,220,1,false,Infinity,Infinity,Infinity,100,Infinity,true,false,false,false
+Tulip,6,-1,30,1,false,20,25,Infinity,Infinity,Infinity,true,false,false,false
+Coffee Bean,10,2,15,4,true,Infinity,Infinity,Infinity,Infinity,2500,true,true,false,false
+Green Bean,10,3,40,1,true,60,75,Infinity,Infinity,Infinity,true,false,false,false
+Strawberry,8,4,120,1,true,Infinity,Infinity,100,Infinity,Infinity,true,false,false,false
+Melon,12,-1,250,1,false,80,100,Infinity,Infinity,Infinity,false,true,false,false
+Poppy,7,-1,140,1,false,100,125,Infinity,Infinity,Infinity,false,true,false,false
+Radish,6,-1,90,1,false,40,50,Infinity,Infinity,Infinity,false,true,false,false
+Red Cabbage,9,-1,260,1,false,100,Infinity,Infinity,Infinity,Infinity,false,true,false,false
+Starfruit,13,-1,750,1,false,Infinity,Infinity,Infinity,400,Infinity,false,true,false,false
+Summer Spangle,8,-1,90,1,false,50,62,Infinity,Infinity,Infinity,false,true,false,false
+Sunflower,8,-1,80,1,false,200,125,Infinity,Infinity,Infinity,false,true,true,false
+Wheat,4,-1,25,1,false,10,12,Infinity,Infinity,Infinity,false,true,true,false
+Blueberry,13,4,50,3,true,80,Infinity,Infinity,Infinity,Infinity,false,true,false,false
+Corn,14,4,150,1,true,150,187,Infinity,Infinity,Infinity,false,true,true,false
+Hops,11,1,25,1,true,60,75,Infinity,Infinity,Infinity,false,true,false,false
+Hot Pepper,5,3,40,1,true,40,50,Infinity,Infinity,Infinity,false,true,false,false
+Tomato,11,4,60,1,true,50,62,Infinity,Infinity,Infinity,false,true,false,false
+Amaranth,7,-1,150,1,false,70,87,Infinity,Infinity,Infinity,false,false,true,false
+Artichoke,8,-1,160,1,false,30,Infinity,Infinity,Infinity,Infinity,false,false,true,false
+Beet,6,-1,100,1,false,Infinity,Infinity,Infinity,20,Infinity,false,false,true,false
+Bok Choy,4,-1,80,1,false,50,62,Infinity,Infinity,Infinity,false,false,true,false
+Fairy Rose,12,-1,290,1,false,200,250,Infinity,Infinity,Infinity,false,false,true,false
+Pumpkin,13,-1,320,1,false,100,125,Infinity,Infinity,Infinity,false,false,true,false
+Sweet Gem Berry,24,-1,3000,1,false,Infinity,Infinity,Infinity,Infinity,1000,false,false,true,false
+Yam,10,-1,160,1,false,60,75,Infinity,Infinity,Infinity,false,false,true,false
+Cranberries,7,5,75,2,true,240,300,Infinity,Infinity,Infinity,false,false,true,false
+Eggplant,5,5,60,1,true,20,25,Infinity,Infinity,Infinity,false,false,true,false
+Grape,10,3,80,1,true,60,75,Infinity,Infinity,Infinity,false,false,true,false
