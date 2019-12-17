@@ -29,3 +29,5 @@ function makeProduce(callback) {
         }
     );
 }
+
+module.exports.makeProduce = makeProduce
