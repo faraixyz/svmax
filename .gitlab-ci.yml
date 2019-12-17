@@ -10,5 +10,7 @@ cache:
 before_script:
   - npm install
 
-build:
-  - node ./build.js
+create:
+  stage: build
+  script:
+    - node ./build.js
