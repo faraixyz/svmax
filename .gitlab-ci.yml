@@ -14,6 +14,8 @@ create:
   stage: build
   script:
     - node ./build.js
+    - mkdir ./output/pics
+    - cp pics/* ./output/pics
   artifacts:
     paths:
       - ./output/
