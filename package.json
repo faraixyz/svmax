@@ -1,6 +1,6 @@
 {
   "name": "stardew-valley-maximization",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Finding the most profitable farm in Stardew Valley",
   "main": "index.js",
   "scripts": {
