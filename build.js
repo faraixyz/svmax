@@ -1,9 +1,11 @@
 const fs = require('fs')
 const path = require('path')
+const util = require('util')
 const makeProduce = require('./make-produce-files.js').makeProduce
 const OUT_DIR = path.join(process.cwd(), 'output')
 const JSON_OUT = path.join(OUT_DIR, 'data.json')
 const CSV_OUT = path.join(OUT_DIR, 'data.csv')
+const JS_OUT = path.join(OUT_DIR, 'index.js')
 
 function infinitfy (key, value) {
   if (value == Infinity) {
@@ -19,10 +21,13 @@ function toCSV () {
   fs.copyFileSync('./data.csv', CSV_OUT)
 }
 
+function toJS (data) {
+  fs.writeFileSync(JS_OUT, `const Produce = ${util.inspect(data)}`)
+}
 function doItAll(data) {
   toCSV(data)
   toJSON(data)
-
+  toJS(data)
 }
 if (require.main === module) {
   fs.exists(OUT_DIR, (exists) => {

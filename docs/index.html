@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Stardew Valley Maximization</title>
+  <style>
+    .dn {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Stardew Valley Optimization&ndash;Make the best farm out of your money</h1>
+  <p>The following form uses the <a href="https://en.wikipedia.org/wiki/Knapsack_problem#Greedy_approximation_algorithm">greedy knapsack algorithm</a>.</p>
+  <form action="javascript:void(0)" method="get" name="best_farm">
+    <label for="balance">Balance</label>
+    <input type="number" name="balance" id="balance">
+    <fieldset>
+      <legend>Season</legend>
+      <input type="radio" name="season" id="spring" value="spring">
+      <label for="spring">Spring</label>
+      <input type="radio" name="season" id="summer" value="summer" required>
+      <label for="summer">Summer</label>
+      <input type="radio" name="season" id="fall" value="fall">
+      <label for="fall">Fall</label>
+    </fieldset>
+    <input type="submit" value="Make the best farm!">
+  </form>
+  <output for="balance number" form="best_farm" id="output">
+    <table class="dn">
+      <thead>
+        <tr>
+          <th>Crop</th>
+          <th>Quantity</th>
+          <th>Price/Crop</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <template id="crop-row">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+  </output>
+<script src="index.js"></script>
+</body>
+</html>
