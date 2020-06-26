@@ -1,0 +1,22 @@
+{
+  "name": "svmax",
+  "version": "0.0.1",
+  "description": "Calculates the most profitable farm in the game Stardew Valley.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faraixyz/svmax.git"
+  },
+  "keywords": [
+    "stardew-valley"
+  ],
+  "author": "Farai Gandiya (gandiyafarai@gmail.com) <https://farai.xyz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faraixyz/svmax/issues"
+  },
+  "homepage": "https://github.com/faraixyz/svmax#readme"
+}
