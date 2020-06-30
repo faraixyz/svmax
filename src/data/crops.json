@@ -1,0 +1,338 @@
+[
+    {
+        "name": "Blue Jazz",
+        "seasons": ["spring"],
+        "growthTime": {
+            "initial": 7
+        },
+        "seed": "Jazz Seeds",
+        "yield": {
+            "quantity": 1,
+            "probabilistic": false
+        },
+        "buyingPrice": {
+            "pierre": 30,
+            "joja": 37,
+            "cart": "150-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 50,
+                "silver": 62,
+                "gold": 75
+            },
+            "tiller": {
+                "regular": 55,
+                "silver": 68,
+                "gold": 82
+            }
+        }
+    },
+    {
+        "name": "Cauliflower",
+        "buyingPrice": {
+            "pierre": 80,
+            "joja": 100,
+            "cart": "120-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 175,
+                "silver": 218,
+                "gold": 262
+            },
+            "tillers": {
+                "regular": 192,
+                "silver": 240,
+                "gold": 288
+            }
+        },
+        "seasons": ["spring"],
+        "growthTime": {
+            "initial": 12
+        },
+        "seed": "Cauliflower Seeds",
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": true
+        }
+    },
+    {
+        "name": "Garlic",
+        "seasons": ["spring"],
+        "seed": "Garlic Seeds",
+        "growthTime": {
+            "initial": 4
+        },
+        "buyingPrice": {
+            "pierre": 40,
+            "cart": "180-1000" 
+        },
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": false
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 60,
+                "silver": 75,
+                "gold": 90
+            },
+            "tiller": {
+                "regular": 66,
+                "silver": 82,
+                "gold": 99
+            }
+        }
+    },
+    {
+        "name": "Kale",
+        "seasons": ["spring"],
+        "seed": "Kale Seeds",
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": false
+        },
+        "growthTime": {
+            "initial": 6
+        },
+        "buyingPrice": {
+            "pierre": 40,
+            "joja": 87,
+            "cart": "330-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 110,
+                "silver": 197,
+                "gold": 165
+            },
+            "tiller": {
+                "regular": 121,
+                "silver": 151,
+                "gold": 181
+            }
+        }
+    },
+    {
+        "name": "Parsnip",
+        "seed": "Parsnip Seed",
+        "seasons": ["spring"],
+        "buyingPrice": {
+            "pierre": 20,
+            "cart": "105-1000",
+            "joja": 25
+        },
+        "growthTime": {
+            "initial": 4
+        },
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": false
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 35,
+                "silver": 43,
+                "gold": 52
+            },
+            "tiller": {
+                "regular": 38,
+                "silver": 48,
+                "gold": 57
+            }
+        }
+    },
+    {
+        "name": "Potato",
+        "seasons": ["spring"],
+        "seed": "Potato Seeds",
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": true
+        },
+        "buyingPrice": {
+            "pierre": 50,
+            "joja": 62,
+            "cart": "240-1000"
+        },
+        "growthTime": {
+            "initial": 6
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 80,
+                "silver": 100,
+                "gold": 120
+            },
+            "tiller": {
+                "regular": 88,
+                "silver": 110,
+                "gold": 132
+            }
+        }
+    },
+    {
+        "name": "Rhubab",
+        "seasons": ["spring"],
+        "yield": {
+            "quantity": 1
+        },
+        "seed": "Rhubab Seeds",
+        "growthTime": {
+            "initial": 13
+        },
+        "buyingPrice": {
+            "oasis": 100,
+            "cart": "660-1100"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 220,
+                "silver": 275,
+                "gold": 330
+            },
+            "tiller": {
+                "regular": 242,
+                "silver": 302,
+                "gold": 363
+            }
+        }
+    },
+    {
+        "name": "Tulip",
+        "seed": "Tulip Bulb",
+        "seasons": ["spring"],
+        "yield": {
+            "quantity": 1
+        },
+        "buyingPrice": {
+            "joja": 25,
+            "pierre": 20,
+            "cart": "100-1000"
+        },
+        "growthTime": {
+            "initial": 6
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 30,
+                "silver": 37,
+                "gold": 45
+            },
+            "tiller": {
+                "regular": 33,
+                "silver": 41,
+                "gold": 49
+            }
+        }
+    },
+    {
+        "name": "Unmilled Rice",
+        "seed": "Rice Shoot",
+        "seasons": ["spring"],
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": true
+        },
+        "growthTime": {
+            "initial": 8,
+            "irrigated": 6
+        },
+        "buyingPrice": {
+            "pierre": 40,
+            "cart": "100-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 30,
+                "silver": 37,
+                "gold": 45
+            },
+            "tiller": {
+                "regular": 33,
+                "silver": 41,
+                "gold": 49
+            }
+        }
+    },
+    {
+        "name": "Coffee Bean",
+        "seed": "Coffee Bean",
+        "seasons": ["spring", "summer"],
+        "yield": {
+            "quantity": 1
+        },
+        "buyingPrice": {
+            "cart": "100-1000",
+            "cartSpecial": 2500
+        },
+        "growthTime": {
+            "initial": 10,
+            "regrowth": 2
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 15,
+                "silver": 18,
+                "gold": 22
+            }
+        }
+    },
+    {
+        "name": "Green Bean",
+        "seed": "Bean Starter",
+        "seasons": ["spring"],
+        "yield": {
+            "quantity": 0
+        },
+        "growthTime": {
+            "initial": 10,
+            "regrowth": 3
+        },
+        "buyingPrice": {
+            "pierre": 60,
+            "joja": 75,
+            "cart": "100-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 40,
+                "silver": 50,
+                "gold": 60
+            },
+            "tiller": {
+                "regular": 44,
+                "silver": 55,
+                "gold": 66
+            }
+        }
+    },
+    {
+        "name": "Strawberry",
+        "seed": "Strawberry Seeds",
+        "yield": {
+            "quantity": 1
+        },
+        "seasons": ["spring"],
+        "buyingPrice": {
+            "eggFestival": 100
+        },
+        "growthTime": {
+            "initial": 8,
+            "regrowth": 4
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 120,
+                "silver": 150,
+                "gold": 180
+            },
+            "tiller": {
+                "regular": 132,
+                "silver": 165,
+                "gold": 198
+            }
+        }
+    }
+]

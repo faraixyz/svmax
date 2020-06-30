@@ -1,0 +1,122 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "title": "Stardew Valley Crops",
+    "$id": "https://faraixyz.github.io/svmax/crops.schema.json",
+    "type": "array",
+    "definitions": {
+        "crop": {
+            "required": ["name", "seasons", "seed", "growthTime", "buyingPrice", "sellingPrice"],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "The name of the crop."
+                },
+                "seasons": {
+                    "type": "array",
+                    "description": "The seasons when the crop can be grown.",
+                    "items": {
+                        "type": "string",
+                        "enum": ["spring", "summer", "fall", "winter"]
+                    }
+                },
+                "seed": {
+                    "type": "string",
+                    "description": "The seed which results in the crop."
+                },
+                "yield": {
+                    "type": "object",
+                    "description": "What the crop produces at harvest.",
+                    "properties": {
+                        "quantity": {
+                            "type": "number",
+                            "description": "How much produce is produced by the crop at harvest."
+                        },
+                        "probabilisticIncrease": {
+                            "type": "boolean",
+                            "description": "Whether the crop yeald can be increased probabilistically."
+                        }
+                    }
+                },
+                "growthTime": {
+                    "type": "object",
+                    "required": ["initial"],
+                    "properties": {
+                        "initial": {
+                            "type": "number",
+                            "description": "The time it take to grow a seed to its first harvest."
+                        },
+                        "regrowth": {
+                            "type": "number",
+                            "description": "The time it takes to regrow a crop from a previous harvest."
+                        },
+                        "irrigated": {
+                            "type": "number",
+                            "description": "The time to grow if the crop is irrigated."
+                        }
+                    }
+                },
+                "buyingPrice": {
+                    "properties": {
+                        "pierre": {
+                            "type": "number",
+                            "description": "The crop's seeds price at Pierre's General Store."
+                        },
+                        "joja": {
+                            "type": "number",
+                            "description": "The crop's seeds price at JojaMart."
+                        },
+                        "oasis": {
+                            "type": "number",
+                            "description": "The crop's seeds price at The Oasis."
+                        },
+                        "cart": {
+                            "type": "string",
+                            "description": "The crop's seeds price at the Travelling Cart's regular stock."
+                        },
+                        "cartSpecial":{
+                            "type": "number",
+                            "description": "The crop's seed price in the Travelling Cart's special stock"
+                        },
+                        "eggFestival": {
+                            "type": "number",
+                            "description": "The crop's seeds price at the Egg Festival."
+                        }
+                    }
+                },
+                "sellingPrice": {
+                    "properties": {
+                        "base": {
+                            "$ref": "#/definitions/crop/properties/sellingPrice/definitions/price",
+                            "description": "The selling price per crop, without the 10% selling price from the Tiller Profession."
+                        },
+                        "tillers": {
+                            "$ref": "#/definitions/crop/properties/sellingPrice/definitions/price",
+                            "description": "The selling price per crop with the 10% selling price bonus from the Tiller Profession."
+                        }
+                    },
+                    "definitions": {
+                        "price": {
+                            "properties": {
+                                "regular": {
+                                    "type": "number",
+                                    "description": "The selling price of a regular quality crop."
+                                },
+                                "silver": {
+                                    "type": "number",
+                                    "description": "The selling price of a silver quality crop."
+                                },
+                                "gold": {
+                                    "type": "number",
+                                    "description": "The selling price of a gold quality crop."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "items": {
+        "$ref": "#/definitions/crop"
+    }
+}

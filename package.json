@@ -4,7 +4,9 @@
   "description": "Calculates the most profitable farm in the game Stardew Valley.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "remove-zoneid-file": "find . -type f -name '*:Zone*' -delete",
+    "validate-schema": "npx ajv validate -s ./src/data/crops.schema.json -d ./src/data/crops.json"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/faraixyz/svmax/issues"
   },
-  "homepage": "https://github.com/faraixyz/svmax#readme"
+  "homepage": "https://github.com/faraixyz/svmax#readme",
+  "devDependencies": {
+    "ajv-cli": "^3.2.1"
+  }
 }
