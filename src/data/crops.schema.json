@@ -5,7 +5,7 @@
     "type": "array",
     "definitions": {
         "crop": {
-            "required": ["name", "seasons", "seed", "growthTime", "buyingPrice", "sellingPrice"],
+            "required": ["name", "seasons", "seed", "growthTime", "buyingPrice", "sellingPrice", "yield"],
             "properties": {
                 "name": {
                     "type": "string",

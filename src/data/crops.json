@@ -334,5 +334,379 @@
                 "gold": 198
             }
         }
+    },
+    {
+        "name": "Melon",
+        "seed": "Melon Seeds",
+        "seasons": ["summer"],
+        "buyingPrice": {
+            "joja": 100,
+            "pierre": 80,
+            "cart": "120-1000"
+        },
+        "growthTime": {
+            "initial": 12
+        },
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": false
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 250,
+                "silver": 312,
+                "gold": 375
+            },
+            "tiller": {
+                "regular": 275,
+                "silver": 343,
+                "gold": 412
+            }
+        }
+    },
+    {
+       "name": "Poppy",
+       "seasons": ["summer"],
+       "seed": "Poppy Seeds",
+       "yield": {
+           "quantity": 1,
+           "probabilisticIncrease": false
+       },
+       "buyingPrice": {
+           "pierre": 100,
+           "joja": 125,
+           "cart": "150-1000"
+       },
+       "growthTime": {
+           "initial": 7
+       },
+       "sellingPrice": {
+           "base": {
+               "regular": 140,
+               "silver": 175,
+               "gold": 210
+           },
+           "tiller": {
+               "regular": 154,
+               "silver": 192,
+               "gold": 231
+           }
+       }
+    },
+    {
+        "name": "Radish",
+        "seed": "Radish Seeds",
+        "seasons": ["summer"],
+        "buyingPrice": {
+            "joja": 50,
+            "pierre": 40,
+            "cart": "150-1000"
+        },
+        "growthTime": {
+            "initial": 6
+        },
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": false
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 90,
+                "silver": 112,
+                "gold": 135
+            },
+            "tiller": {
+                "regular": 99,
+                "silver": 123,
+                "gold": 148
+            }
+        }
+    },
+    {
+        "name": "Red Cabbage",
+        "seed": "Red Cabbage Seeds",
+        "seasons": ["summer"],
+        "buyingPrice": {
+            "pierre": 100,
+            "cart": "150-1000"
+        },
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": false
+        },
+        "growthTime": {
+            "initial": 9
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 260,
+                "silver": 325,
+                "gold": 390
+            },
+            "tiller": {
+                "regular": 286,
+                "silver": 357,
+                "gold": 429
+            }
+        }
+    },
+    {
+        "name": "Starfruit",
+        "seed": "Starfruit Seeds",
+        "seasons": ["summer"],
+        "buyingPrice": {
+            "oasis": 400
+        },
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": false
+        },
+        "growthTime": {
+            "initial": 13
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 750,
+                "silver": 937,
+                "gold": 1125
+            },
+            "tiller": {
+                "regular": 825,
+                "silver": 1031,
+                "gold": 1237
+            }
+        }
+    },
+    {
+        "name": "Summer Spangle",
+        "seed": "Spangle Seeds",
+        "seasons": ["summer"],
+        "yield": {
+            "quantity": 1
+        },
+        "buyingPrice": {
+            "joja": 62,
+            "pierre": 50,
+            "cart": "100-1000"
+        },
+        "growthTime": {
+            "initial": 8
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 90,
+                "silver": 112,
+                "gold": 135
+            },
+            "tiller": {
+                "regular": 99,
+                "silver": 123,
+                "gold": 148
+            }
+        }
+    },
+    {
+        "name": "Sunflower",
+        "seasons": ["summer", "fall"],
+        "seed": "Sunflower Seeds",
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": true
+        },
+        "buyingPrice": {
+            "joja": 125,
+            "pierre": 200,
+            "cart": "100-1000"
+        },
+        "growthTime": {
+            "initial": 8
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 80,
+                "silver": 100,
+                "gold": 120
+            },
+            "tiller": {
+                "regular": 88,
+                "silver": 110,
+                "gold": 132
+            }
+        }
+    },
+    {
+        "name": "Wheat",
+        "growthTime": {
+            "initial": 4
+        },
+        "seasons": ["summer", "fall"],
+        "seed": "Wheat Seeds",
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": true
+        },
+        "buyingPrice": {
+            "joja": 12,
+            "pierre": 10,
+            "cart": "100-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 25,
+                "silver": 31,
+                "gold": 37
+            },
+            "tiller": {
+                "regular": 27,
+                "silver": 33,
+                "gold": 40
+            }
+        }
+    },
+    {
+        "name": "Blueberry",
+        "seed": "Blueberry Seeds",
+        "seasons": ["summer"],
+        "growthTime": {
+            "initial": 13,
+            "regrowth": 4
+        },
+        "yield": {
+            "quantity": 3
+        },
+        "buyingPrice": {
+            "pierre": 80,
+            "cart": "120-10000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 50,
+                "silver": 62,
+                "gold": 75
+            },
+            "tiller": {
+                "regular": 55,
+                "silver": 68,
+                "gold": 82
+            }
+        }
+    },
+    {
+        "name": "Corn",
+        "seasons": ["summer", "fall"],
+        "seed": "Corn Seeds",
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": false
+        },
+        "growthTime": {
+            "initial": 14,
+            "regrowth": 4
+        },
+        "buyingPrice": {
+            "pierre": 150,
+            "cart": "225-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 50,
+                "silver": 62,
+                "gold": 75
+            },
+            "tiller": {
+                "regular": 55,
+                "silver": 68,
+                "gold": 82
+            }
+        }
+    },
+    {
+        "name": "Hops",
+        "seed": "Hops Starter",
+        "seasons": ["summer"],
+        "buyingPrice": {
+            "joja": 75,
+            "pierre": 60,
+            "cart": "100-1000"
+        },
+        "yield": {
+            "quantity": 1
+        },
+        "growthTime": {
+            "initial": 11,
+            "regrowth": 1
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 25,
+                "silver": 31,
+                "gold": 37
+            },
+            "tiller": {
+                "regular": 27,
+                "silver": 33,
+                "gold": 40
+            }
+        }
+    },
+    {
+        "name": "Hot Pepper",
+        "seed": "Pepper Seeds",
+        "seasons": ["summer"],
+        "buyingPrice": {
+            "joja": 50,
+            "pierre": 40,
+            "cart": "100-1000"
+        },
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": true
+        },
+        "growthTime": {
+            "initial": 5,
+            "regrowth": 3
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 40,
+                "silver": 50,
+                "gold": 60
+            },
+            "tiller": {
+                "regular": 44,
+                "silver": 55,
+                "gold": 66
+            }
+        }
+    },
+    {
+        "name": "Tomato",
+        "seed": "Tomato Seeds",
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": true
+        },
+        "growthTime": {
+            "initial": 11,
+            "regrowth": 4
+        },
+        "seasons": ["summer"],
+        "buyingPrice": {
+            "joja": 62,
+            "pierre": 50,
+            "cart": "100-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 60,
+                "silver": 75,
+                "gold": 90
+            },
+            "tiller": {
+                "regular": 66,
+                "silver": 82,
+                "gold": 99
+            }
+        }
     }
 ]
