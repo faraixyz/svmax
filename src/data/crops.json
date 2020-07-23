@@ -708,5 +708,317 @@
                 "gold": 99
             }
         }
+    },
+    {
+        "name": "Amaranth",
+        "seed": "Amaranth Seeds",
+        "seasons": ["fall"],
+        "yield": {
+            "quantity": 1
+        },
+        "growthTime": {
+            "initial": 7
+        },
+        "buyingPrice": {
+            "joja": 87,
+            "pierre": 70,
+            "cart": "450-1,000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 150,
+                "silver": 187,
+                "gold": 225
+            },
+            "tiller": {
+                "regular": 165,
+                "silver": 206,
+                "gold": 247
+            }
+        }
+    },
+    {
+        "name": "Artichoke",
+        "seed": "Artichoke Seeds",
+        "seasons": ["fall"],
+        "yield": {
+            "quantity": 1
+        },
+        "growthTime": {
+            "initial": 8
+        },
+        "buyingPrice": {
+            "pierre": 0,
+            "cart": "480-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 160,
+                "silver": 200,
+                "gold": 240
+            },
+            "tiller": {
+                "regular": 176,
+                "silver": 220,
+                "gold": 264
+            }
+        }
+    },
+    {
+        "name": "Beet",
+        "seasons": ["fall"],
+        "seed": "Beet Seeds",
+        "yield": {
+            "quantity": 1
+        },
+        "growthTime": {
+            "initial": 6
+        },
+        "buyingPrice": {
+            "oasis": 20,
+            "cart": "100-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 100,
+                "silver": 125,
+                "gold": 150
+            },
+            "tiller": {
+                "regular": 110,
+                "silver": 137,
+                "gold": 165
+            }
+        }
+    },
+    {
+        "name": "Bok Choy",
+        "seed": "Bok Choy Seeds",
+        "seasons": ["fall"],
+        "yield": {
+            "quantity": 1
+        },
+        "growthTime": {
+            "initial": 4
+        },
+        "buyingPrice": {
+            "joja": 62,
+            "pierre": 50,
+            "cart": "100-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 80,
+                "silver": 100,
+                "gold": 120
+            },
+            "tiller": {
+                "regular": 88,
+                "silver": 110,
+                "gold": 132
+            }
+        }
+    },
+    {
+        "name": "Fairy Rose",
+        "seed": "Fairy Seeds",
+        "seasons": ["fall"],
+        "yield": {
+            "quantity": 1
+        },
+        "growthTime": {
+            "initial": 12
+        },
+        "buyingPrice": {
+            "joja": 250,
+            "pierre": 200,
+            "cart": "300-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 290,
+                "silver": 362,
+                "gold": 435
+            },
+            "tiller": {
+                "regular": 319,
+                "silver": 398,
+                "gold": 478
+            }
+        }
+    },
+    {
+        "name": "Pumpkin",
+        "seasons": ["fall"],
+        "seed": "Pumpkin Seeds",
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": true
+        },
+        "growthTime": {
+            "initial": 13
+        },
+        "buyingPrice": {
+            "joja": 125,
+            "pierre": 100,
+            "cart": "150-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 320,
+                "silver": 400,
+                "gold": 480
+            },
+            "tiller": {
+                "regular": 352,
+                "silver": 440,
+                "gold": 528
+            }
+        }
+    },
+    {
+        "name": "Sweet Gem Berry",
+        "seasons": ["fall"],
+        "seed": "Rare Seed",
+        "yield": {
+            "quantity": 1
+        },
+        "growthTime": {
+            "initial": 24
+        },
+        "buyingPrice": {
+            "cartSpecial": 1000
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 3000,
+                "silver": 3750,
+                "gold": 4500
+            },
+            "tiller": {
+                "regular": 3000,
+                "silver": 3750,
+                "gold": 4500
+            }
+        }
+    },
+    {
+        "name": "Yam",
+        "seed": "Yam Seeds",
+        "seasons": ["fall"],
+        "yield": {
+            "quantity": 1
+        },
+        "growthTime": {
+            "initial": 10
+        },
+        "buyingPrice": {
+            "joja": 75,
+            "pierre": 60,
+            "cart": "100-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 160,
+                "silver": 200,
+                "gold": 240
+            },
+            "tiller": {
+                "regular": 176,
+                "silver": 220,
+                "gold": 264
+            }
+        }
+    },
+    {
+        "name": "Cranberries",
+        "seed": "Cranberry Seeds",
+        "seasons": ["fall"],
+        "yield": {
+            "quantity": 2,
+            "probabilisticIncrease": true
+        },
+        "buyingPrice": {
+            "joja": 300,
+            "pierre": 240,
+            "cart": "360-1000"
+        },
+        "growthTime": {
+            "initial": 7,
+            "regrowth": 5
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 75,
+                "silver": 93,
+                "gold": 112
+            },
+            "tiller": {
+                "regular": 82,
+                "silver": 102,
+                "gold": 123
+            }
+        }
+    },
+    {
+        "name": "Eggplant",
+        "seasons": ["fall"],
+        "seed": "Eggplant Seeds",
+        "yield": {
+            "quantity": 1,
+            "probabilisticIncrease": true
+        },
+        "growthTime": {
+            "initial": 5,
+            "regrowth": 5
+        },
+        "buyingPrice": {
+            "joja": 25,
+            "pierre": 20,
+            "cart": "100-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 60,
+                "silver": 75,
+                "gold": 90
+            },
+            "tiller": {
+                "regular": 66,
+                "silver": 82,
+                "gold": 99
+            }
+        }
+    },
+    {
+        "name": "Grape",
+        "seed": "Grape Starter",
+        "seasons": ["fall"],
+        "yield": {
+            "quantity": 1
+        },
+        "growthTime": {
+            "initial": 10,
+            "regrowth": 3
+        },
+        "buyingPrice": {
+            "joja": 75,
+            "pierre": 60,
+            "cart": "100-1000"
+        },
+        "sellingPrice": {
+            "base": {
+                "regular": 80,
+                "silver": 100,
+                "gold": 120,
+                "iridium": 176
+            },
+            "tiller": {
+                "regular": 88,
+                "silver": 110,
+                "gold": 132,
+                "iridium": 176
+            }
+        }
     }
 ]

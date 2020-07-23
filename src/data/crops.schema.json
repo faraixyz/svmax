@@ -108,6 +108,10 @@
                                 "gold": {
                                     "type": "number",
                                     "description": "The selling price of a gold quality crop."
+                                },
+                                "iridium": {
+                                    "type": "number",
+                                    "description": "The selling price of an iridium quality crop."
                                 }
                             }
                         }
