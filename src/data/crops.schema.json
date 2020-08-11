@@ -5,11 +5,15 @@
     "type": "array",
     "definitions": {
         "crop": {
-            "required": ["name", "seasons", "seed", "growthTime", "buyingPrice", "sellingPrice", "yield"],
+            "required": ["name", "seasons", "seed", "growthTime", "buyingPrice", "sellingPrice", "yield", "source"],
             "properties": {
                 "name": {
                     "type": "string",
                     "description": "The name of the crop."
+                },
+                "source": {
+                    "type": "string",
+                    "format": "uri"
                 },
                 "seasons": {
                     "type": "array",
@@ -59,27 +63,31 @@
                     "properties": {
                         "pierre": {
                             "type": "number",
-                            "description": "The crop's seeds price at Pierre's General Store."
+                            "description": "The crop's seed's price at Pierre's General Store."
                         },
                         "joja": {
                             "type": "number",
-                            "description": "The crop's seeds price at JojaMart."
+                            "description": "The crop's seed's price at JojaMart."
                         },
                         "oasis": {
                             "type": "number",
-                            "description": "The crop's seeds price at The Oasis."
+                            "description": "The crop's seed's price at The Oasis."
                         },
                         "cart": {
                             "type": "string",
-                            "description": "The crop's seeds price at the Travelling Cart's regular stock."
+                            "description": "The crop's seed's price at the Travelling Cart's regular stock."
                         },
                         "cartSpecial":{
                             "type": "number",
-                            "description": "The crop's seed price in the Travelling Cart's special stock"
+                            "description": "The crop's seed's price in the Travelling Cart's special stock"
                         },
                         "eggFestival": {
                             "type": "number",
-                            "description": "The crop's seeds price at the Egg Festival."
+                            "description": "The crop's seed's price at the Egg Festival."
+                        },
+                        "nightMarket": {
+                            "type": "number",
+                            "description": "The crop's seed's price at the night market"
                         }
                     }
                 },
