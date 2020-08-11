@@ -84,8 +84,10 @@
                         "eggFestival": {
                             "type": "number",
                             "description": "The crop's seed's price at the Egg Festival."
-                        },
-                        "nightMarket": {
+                        }
+                    },
+                    "patternProperties": {
+                        "nightMarket1(5|6|7)": {
                             "type": "number",
                             "description": "The crop's seed's price at the night market"
                         }

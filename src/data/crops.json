@@ -15,7 +15,7 @@
             "pierre": 30,
             "joja": 37,
             "cart": "100-1000",
-            "nightMarket": 30
+            "nightMarket15": 30
         },
         "sellingPrice": {
             "base": {
@@ -36,7 +36,7 @@
             "pierre": 80,
             "joja": 100,
             "cart": "120-1000",
-            "nightMarket": 80
+            "nightMarket15": 80
         },
         "source": "https://stardewvalleywiki.com/Cauliflower",
         "sellingPrice": {
@@ -72,7 +72,7 @@
         "buyingPrice": {
             "pierre": 40,
             "cart": "100-1000",
-            "nightMarket": 40
+            "nightMarket15": 40
         },
         "yield": {
             "quantity": 1,
@@ -107,7 +107,7 @@
             "pierre": 70,
             "joja": 87,
             "cart": "105-1000",
-            "nightMarket": 70
+            "nightMarket15": 70
         },
         "sellingPrice": {
             "base": {
@@ -131,7 +131,7 @@
             "pierre": 20,
             "cart": "100-1000",
             "joja": 25,
-            "nightMarket": 20
+            "nightMarket15": 20
         },
         "growthTime": {
             "initial": 4
@@ -166,7 +166,7 @@
             "pierre": 50,
             "joja": 62,
             "cart": "100-1000",
-            "nightMarket": 50
+            "nightMarket15": 50
         },
         "growthTime": {
             "initial": 6
@@ -224,7 +224,7 @@
             "joja": 25,
             "pierre": 20,
             "cart": "100-1000",
-            "nightMarket": 20
+            "nightMarket15": 20
         },
         "growthTime": {
             "initial": 6
@@ -317,7 +317,7 @@
             "pierre": 60,
             "joja": 75,
             "cart": "100-1000",
-            "nightMarket": 60
+            "nightMarket15": 60
         },
         "sellingPrice": {
             "base": {
@@ -370,7 +370,7 @@
             "joja": 100,
             "pierre": 80,
             "cart": "120-1000",
-            "nightMarket": 80
+            "nightMarket16": 80
         },
         "growthTime": {
             "initial": 12
@@ -403,7 +403,7 @@
        "source": "https://stardewvalleywiki.com/Poppy",
        "buyingPrice": {
            "pierre": 100,
-           "nightMarket": 100,
+           "nightMarket16": 100,
            "joja": 125,
            "cart": "150-1000"
        },
@@ -430,7 +430,7 @@
         "buyingPrice": {
             "joja": 50,
             "pierre": 40,
-            "nightMarket": 40,
+            "nightMarket16": 40,
             "cart": "100-1000"
         },
         "source": "https://stardewvalleywiki.com/Radish",
@@ -460,7 +460,7 @@
         "seasons": ["summer"],
         "buyingPrice": {
             "pierre": 100,
-            "nightMarket": 100,
+            "nightMarket16": 100,
             "cart": "150-1000"
         },
         "source": "https://stardewvalleywiki.com/Red_Cabbage",
@@ -524,7 +524,7 @@
         "buyingPrice": {
             "joja": 62,
             "pierre": 50,
-            "nightMarket": 50,
+            "nightMarket16": 50,
             "cart": "100-1000"
         },
         "growthTime": {
@@ -555,7 +555,7 @@
         "buyingPrice": {
             "joja": 125,
             "pierre": 200,
-            "nightMarket": 200,
+            "nightMarket16": 200,
             "cart": "100-1000"
         },
         "growthTime": {
@@ -589,7 +589,7 @@
         "buyingPrice": {
             "joja": 12,
             "pierre": 10,
-            "nightMarket": 10,
+            "nightMarket16": 10,
             "cart": "100-1000"
         },
         "sellingPrice": {
@@ -620,7 +620,7 @@
         },
         "buyingPrice": {
             "pierre": 80,
-            "nightMarket": 80,
+            "nightMarket16": 80,
             "cart": "120-1000"
         },
         "sellingPrice": {
@@ -651,7 +651,7 @@
         },
         "buyingPrice": {
             "pierre": 150,
-            "nightMarket": 150,
+            "nightMarket16": 150,
             "cart": "225-1000"
         },
         "sellingPrice": {
@@ -675,7 +675,7 @@
         "buyingPrice": {
             "joja": 75,
             "pierre": 60,
-            "nightMarket": 60,
+            "nightMarket16": 60,
             "cart": "100-1000"
         },
         "yield": {
@@ -706,7 +706,7 @@
         "buyingPrice": {
             "joja": 50,
             "pierre": 40,
-            "nightMarket": 40,
+            "nightMarket16": 40,
             "cart": "100-1000"
         },
         "yield": {
@@ -746,7 +746,7 @@
         "buyingPrice": {
             "joja": 62,
             "pierre": 50,
-            "nightMarket": 50,
+            "nightMarket16": 50,
             "cart": "100-1000"
         },
         "sellingPrice": {
@@ -776,7 +776,7 @@
         "buyingPrice": {
             "joja": 87,
             "pierre": 70,
-            "nightMarket": 70,
+            "nightMarket17": 70,
             "cart": "105-1000"
         },
         "sellingPrice": {
@@ -805,7 +805,7 @@
         },
         "buyingPrice": {
             "pierre": 30,
-            "nightMarket": 30,
+            "nightMarket17": 30,
             "cart": "100-1000"
         },
         "sellingPrice": {
@@ -863,7 +863,7 @@
         "buyingPrice": {
             "joja": 62,
             "pierre": 50,
-            "nightMarket": 50,
+            "nightMarket17": 50,
             "cart": "100-1000"
         },
         "sellingPrice": {
@@ -893,7 +893,7 @@
         "buyingPrice": {
             "joja": 250,
             "pierre": 200,
-            "nightMarket": 200,
+            "nightMarket17": 200,
             "cart": "300-1000"
         },
         "sellingPrice": {
@@ -924,7 +924,7 @@
         "buyingPrice": {
             "joja": 125,
             "pierre": 100,
-            "nightMarket": 100,
+            "nightMarket17": 100,
             "cart": "150-1000"
         },
         "sellingPrice": {
@@ -982,7 +982,7 @@
         "buyingPrice": {
             "joja": 75,
             "pierre": 60,
-            "nightMarket": 60,
+            "nightMarket17": 60,
             "cart": "100-1000"
         },
         "sellingPrice": {
@@ -1010,7 +1010,7 @@
         "buyingPrice": {
             "joja": 300,
             "pierre": 240,
-            "nightMarket": 240,
+            "nightMarket17": 240,
             "cart": "360-1000"
         },
         "growthTime": {
@@ -1046,7 +1046,7 @@
         "buyingPrice": {
             "joja": 25,
             "pierre": 20,
-            "nightMarket": 20,
+            "nightMarket17": 20,
             "cart": "100-1000"
         },
         "sellingPrice": {
@@ -1077,7 +1077,7 @@
         "buyingPrice": {
             "joja": 75,
             "pierre": 60,
-            "nightMarket": 60,
+            "nightMarket17": 60,
             "cart": "100-1000"
         },
         "sellingPrice": {
