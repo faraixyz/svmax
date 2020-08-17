@@ -4,6 +4,10 @@ const DATA_DIR = path.join(__dirname, '../src/data/')
 const DATA_SRC = path.join(DATA_DIR, 'crops.json')
 const DATA_DEST = path.join(DATA_DIR, 'crops.js')
 
+function findSellingPrice (prices) {
+    return prices.base.regular
+}
+
 function findBuyingPrice (prices) {
     let min = []
     for (const store of Object.keys(prices)) {
